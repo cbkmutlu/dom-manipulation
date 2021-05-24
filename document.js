@@ -111,7 +111,7 @@ doc.fn = doc.prototype = {
     },
 
     next: function(type, match) {
-        return doc(_nodeList(this, true, match, "nextElementSibling"));
+        return doc(_nodeList(this, null, match, "nextElementSibling"));
     },
 
     nextAll: function(match) {
